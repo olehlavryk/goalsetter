@@ -4,8 +4,8 @@
  * @access Private
  */
 const getGoals = (req, res) => {
-  res.status(200).json({ message: "Get goals." })
-}
+  res.status(200).json({ message: "Get goals." });
+};
 
 /**
  * @desc Set goal
@@ -14,7 +14,7 @@ const getGoals = (req, res) => {
  */
 const setGoal = (req, res) => {
   res.status(200).json({ message: "Set goal." });
-}
+};
 
 /**
  * @desc Update goal
@@ -23,7 +23,7 @@ const setGoal = (req, res) => {
  */
 const updateGoal = (req, res) => {
   res.status(200).json({ message: `Update goal ${req.params.id}.` });
-}
+};
 
 /**
  * @desc Delete goal
@@ -32,11 +32,11 @@ const updateGoal = (req, res) => {
  */
 const deleteGoal = (req, res) => {
   res.status(200).json({ message: `Delete goal ${req.params.id}.` });
-}
+};
 
 module.exports = {
   getGoals,
   setGoal,
   updateGoal,
   deleteGoal
-}
+};

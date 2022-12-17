@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "lint": "eslint -c .eslintrc.js --ext .js, .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "author": "Oleh Lavryk",
   "license": "MIT",
@@ -16,6 +18,9 @@
     "mongoose": "^6.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
   }
 }
