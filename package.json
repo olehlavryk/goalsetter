@@ -10,11 +10,6 @@
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "author": "Oleh Lavryk",
   "license": "MIT",
   "dependencies": {
