@@ -5,7 +5,7 @@ module.exports = {
         "es2021": true
     },
     "extends": ["eslint:recommended", "prettier"],
-    "ignorePatterns": ["node_modules", ".eslintrc.js"],
+    "ignorePatterns": ["node_modules", ".eslintrc.js", "frontend"],
     "overrides": [
     ],
     "parserOptions": {
