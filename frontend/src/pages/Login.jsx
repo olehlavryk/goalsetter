@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { FaSignInAlt } from "react-icons/fa";
 import { useSelector, useDispatch } from 'react-redux';
@@ -35,8 +36,6 @@ const Login = () => {
     isError,
     isSuccess,
     message,
-    navigate,
-    dispatch
   ]);
 
   const onChange = (evt) => {
